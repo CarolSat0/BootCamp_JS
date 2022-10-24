@@ -1,0 +1,4 @@
+1. var NomeCliente;
+2. undefined;
+3. primitivos e não primitivos;
+4. não. O JS é uma linguagem client-side,trabalhando com os recursos do cliente e não do navegador.

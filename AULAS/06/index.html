@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 06</title>
+</head>
+<script>
+    function soma(){
+        console.log(1+3);
+    }
+
+    //soma();
+
+    function concatenarNome(){
+        var nome = "Marcelo"
+        var sobrenome = "Da Silva"
+        alert(nome + sobrenome);
+    }
+
+    // concatenarNome();
+
+    function novaContacanterNomes(nome, sobrenome){
+        document.write(nome + " " + sobrenome);
+    }
+
+    novaContacanterNomes("Marcelo", "Da Silva");
+
+    let semNome = function(){
+        alert("Estou em uma função anônima");
+    }
+
+    semNome();
+
+    let funComPar = function(idade, idadePar){
+        if(idae>idadePar){
+            alert("Você tem idade maior que"+ idadePar);
+        }else{
+            alert("Você tem idade menor que", idadePar);
+        }
+    }
+
+    funComPar(20, 18);
+    funComPar(17,18);
+</script>
+<body>
+    
+</body>
+</html>

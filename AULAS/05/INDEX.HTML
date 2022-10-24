@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 05</title>
+</head>
+<script>
+    // alert("Hallo world!");
+    // prompt("Digite alguma coisa");
+    // confirm("Clique em um botão");
+
+    // var nome = prompt("Digite o seu nome");
+    // var cor = prompt("Qual a sua cor favorita "+nome+"?");
+
+    // document.write("Nome...: "+nome+"<br>");
+    // document.write("A cor favorita do(a) "+nome+" é "+cor+"<br>");
+
+    // if(confirm("Clique em um botão")){
+    //     document.write("Você clicou em OK");
+    // }else{
+    //     document.write("Você clicou no cancelar");
+    // }
+
+    var opcao = prompt("Digite 1 ou 2 para continuar");
+
+    switch(opcao){
+        case '1':
+            var pergunta = confirm("Você pretende continuar a operação");
+            if(pergunta){
+                alert("Parabéns está ficando bom");
+            }else{
+                alert("poxa vida, você está aflito, não quer continuar?");
+            }
+        break;
+        case '2':
+            var pergunta = confirm("Você é casado?");
+            if(pergunta){
+                var conjuge = prompt("qual é o nome do seu conjuge");
+                alert("Parabens por ser casado com o(a) " +conjuge);
+            }
+        break;
+        default: console.log("esta opção não existe");
+        break;
+    }
+
+</script>
+<body>
+    
+</body>
+</html>
