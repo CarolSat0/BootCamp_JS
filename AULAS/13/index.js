@@ -4,7 +4,7 @@
 //     console.log(`O valor da interação é ${x} o i mais ele mesmo ${i++}`);
 // }
 
-let Pessoas = {
+let Pessoas = { //classe
     nome: "Carolina Sato",
     idade: 22,
     profissão: "estagiaria"
@@ -20,7 +20,7 @@ for(let nomeFrutas of frutas){
     console.log(nomeFrutas);
 }
 
-let herois = [
+let herois = [ //classe
     {
         identidadeSecreta: "Steven Roger",
         heroi: "Capitão America",
